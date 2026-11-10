@@ -1,0 +1,164 @@
+[
+{
+  "model": "quiz.exam",
+  "pk": 4,
+  "fields": {
+    "title": "Sample Exam",
+    "description": "This is a sample exam for demonstration",
+    "creation_date": "2026-11-06T20:02:09.064Z"
+  }
+},
+{
+  "model": "quiz.exam",
+  "pk": 6,
+  "fields": {
+    "title": "Segundo Examen",
+    "description": "Examen de apoyo para demostrar el filtrado por examen",
+    "creation_date": "2026-11-08T03:09:08.171Z"
+  }
+},
+{
+  "model": "quiz.exam",
+  "pk": 30,
+  "fields": {
+    "title": "Examen creado con curl",
+    "description": "Evidencia desde cliente HTTP externo",
+    "creation_date": "2026-11-16T01:59:47.540Z"
+  }
+},
+{
+  "model": "quiz.question",
+  "pk": 2,
+  "fields": {
+    "exam": 4,
+    "statement": "What is Python?",
+    "score": 2
+  }
+},
+{
+  "model": "quiz.question",
+  "pk": 3,
+  "fields": {
+    "exam": 4,
+    "statement": "Which keyword creates a function?",
+    "score": 3
+  }
+},
+{
+  "model": "quiz.question",
+  "pk": 5,
+  "fields": {
+    "exam": 6,
+    "statement": "¿En qué lenguaje está escrito Django?",
+    "score": 1
+  }
+},
+{
+  "model": "quiz.choice",
+  "pk": 5,
+  "fields": {
+    "question": 2,
+    "text": "A snake",
+    "is_correct": false
+  }
+},
+{
+  "model": "quiz.choice",
+  "pk": 6,
+  "fields": {
+    "question": 2,
+    "text": "A programming language",
+    "is_correct": true
+  }
+},
+{
+  "model": "quiz.choice",
+  "pk": 7,
+  "fields": {
+    "question": 2,
+    "text": "A snake charmer",
+    "is_correct": false
+  }
+},
+{
+  "model": "quiz.choice",
+  "pk": 8,
+  "fields": {
+    "question": 2,
+    "text": "A type of data",
+    "is_correct": false
+  }
+},
+{
+  "model": "quiz.choice",
+  "pk": 9,
+  "fields": {
+    "question": 3,
+    "text": "def",
+    "is_correct": true
+  }
+},
+{
+  "model": "quiz.choice",
+  "pk": 10,
+  "fields": {
+    "question": 3,
+    "text": "function",
+    "is_correct": false
+  }
+},
+{
+  "model": "quiz.choice",
+  "pk": 11,
+  "fields": {
+    "question": 3,
+    "text": "import",
+    "is_correct": false
+  }
+},
+{
+  "model": "quiz.choice",
+  "pk": 12,
+  "fields": {
+    "question": 3,
+    "text": "class",
+    "is_correct": false
+  }
+},
+{
+  "model": "quiz.choice",
+  "pk": 17,
+  "fields": {
+    "question": 5,
+    "text": "Python",
+    "is_correct": true
+  }
+},
+{
+  "model": "quiz.choice",
+  "pk": 18,
+  "fields": {
+    "question": 5,
+    "text": "Java",
+    "is_correct": false
+  }
+},
+{
+  "model": "quiz.choice",
+  "pk": 19,
+  "fields": {
+    "question": 5,
+    "text": "PHP",
+    "is_correct": false
+  }
+},
+{
+  "model": "quiz.choice",
+  "pk": 20,
+  "fields": {
+    "question": 5,
+    "text": "C#",
+    "is_correct": false
+  }
+}
+]
